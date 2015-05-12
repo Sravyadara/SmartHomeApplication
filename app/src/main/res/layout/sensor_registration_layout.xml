@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="25dp"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="Sensor Name"
+            android:typeface="serif"
+            android:layout_marginTop="73dp"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/sname"
+            android:hint="Sensor Name"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="Sensor Place"
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:id="@+id/textView3"
+            android:textSize="15dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/lname"
+            android:hint="Place"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Latitude"
+            android:typeface="serif"
+            android:id="@+id/textView4"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/email"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:hint="Latitude"
+            android:layout_below="@+id/lname"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Longitude"
+            android:typeface="serif"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_alignRight="@+id/textView4"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/uname"
+            android:hint="Longitude"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Register"
+            android:typeface="serif"
+            android:id="@+id/registerone"
+            android:background="#f1c40f"
+            android:textSize="13dp"
+            android:layout_marginTop="76dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView5" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:id="@+id/register_error"
+            android:layout_below="@+id/register"
+            android:layout_alignLeft="@+id/uname" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
